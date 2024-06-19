@@ -508,51 +508,10 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.container{
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-@media (min-width: 576px){
-
-  .container{
-    max-width: 576px;
-  }
-}
-@media (min-width: 768px){
-
-  .container{
-    max-width: 768px;
-  }
-}
-@media (min-width: 992px){
-
-  .container{
-    max-width: 992px;
-  }
-}
-@media (min-width: 1200px){
-
-  .container{
-    max-width: 1200px;
-  }
-}
-.h-40{
-  height: 10rem;
-}
-.bg-pink-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
-}
-.bg-slate-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-.font-poppins{
-  font-family: "Poppins", sans-serif;
-}
 .font-roboto{
   font-family: "Roboto", sans-serif;
+}
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(253 61 87 / var(--tw-text-opacity));
 }
