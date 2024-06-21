@@ -80,11 +80,40 @@
       <div class="container flex">
 
         <!-- all catagory -->
-        <div class="px-8 py-4 bg-primary flex itemes-center cursor-pointer">
+        <div class="relative px-8 py-4 bg-primary flex itemes-center cursor-pointer group ">
           <span>
             <i class="fa-solid fa-bars text-white"></i>
           </span>
           <span class="text-white ml-2">All Catagories</span>
+
+          <!-- dropdown menu  -->
+           <div class="absolute w-full left-0 top-full bg-white shadow-md py-3 divide-y divide-gray-300 divide-dashed  opacity-0 group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+              <span><img src="./Images/icons/sofa.svg" class="w-5 h-5" alt="sofa"></span>
+              <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+              <span><img src="./Images/icons/bed.svg" class="w-5 h-5" alt="sofa"></span>
+              <span class="ml-6 text-gray-600 text-sm">Bedroom</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+              <span><img src="./Images/icons/office.svg" class="w-5 h-5" alt="sofa"></span>
+              <span class="ml-6 text-gray-600 text-sm">Office</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+              <span><img src="./Images/icons/outdoor-cafe.svg" class="w-5 h-5" alt="sofa"></span>
+              <span class="ml-6 text-gray-600 text-sm">Outdoor</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+              <span><img src="./Images/icons/bed-2.svg" class="w-5 h-5" alt="sofa"></span>
+              <span class="ml-6 text-gray-600 text-sm">Mattress</span>
+            </a>
+            <a href="#" class="flex items-center px-6 py-3 hover:bg-gray-100 transition">
+              <span><img src="./Images/icons/sofa.svg" class="w-5 h-5" alt="sofa"></span>
+              <span class="ml-6 text-gray-600 text-sm">Sofa</span>
+            </a>
+           </div>
+           <!-- dropdown ended  -->
         </div>
 
         <!-- nav-bar menu  -->
@@ -102,9 +131,7 @@
           <span class="text-gray-200 hover:text-white transition">/</span>
           <a href="#" class="text-gray-200 hover:text-white transition">Register</a>
          </div>
-        </div>
-
-       
+        </div> 
       </div>
      </nav>
     <!-- nav bar end -->

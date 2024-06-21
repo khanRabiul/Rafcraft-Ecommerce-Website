@@ -21,6 +21,12 @@ module.exports = {
         "primary": '#FD3D57'
       }
     },
+    variants: {
+      extend: {
+        display: ['group-hover'],
+        visibility: ['group-hover']
+      }
+    }
   },
   plugins: [],
 }
