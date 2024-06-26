@@ -556,6 +556,9 @@ h1,h2,h3,h4,h5,h6{
 .relative{
   position: relative;
 }
+.inset-0{
+  inset: 0px;
+}
 .-top-1{
   top: -0.25rem;
 }
@@ -581,14 +584,17 @@ h1,h2,h3,h4,h5,h6{
   margin-left: auto;
   margin-right: auto;
 }
+.mb-4{
+  margin-bottom: 1rem;
+}
+.mb-6{
+  margin-bottom: 1.5rem;
+}
 .ml-2{
   margin-left: 0.5rem;
 }
 .ml-6{
   margin-left: 1.5rem;
-}
-.mb-4{
-  margin-bottom: 1rem;
 }
 .mt-12{
   margin-top: 3rem;
@@ -599,11 +605,17 @@ h1,h2,h3,h4,h5,h6{
 .grid{
   display: grid;
 }
+.h-12{
+  height: 3rem;
+}
 .h-5{
   height: 1.25rem;
 }
-.h-12{
-  height: 3rem;
+.w-10\/12{
+  width: 83.333333%;
+}
+.w-12{
+  width: 3rem;
 }
 .w-32{
   width: 8rem;
@@ -613,12 +625,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .w-full{
   width: 100%;
-}
-.w-10\/12{
-  width: 83.333333%;
-}
-.w-12{
-  width: 3rem;
 }
 .max-w-xl{
   max-width: 36rem;
@@ -641,11 +647,14 @@ h1,h2,h3,h4,h5,h6{
 .justify-between{
   justify-content: space-between;
 }
+.gap-5{
+  gap: 1.25rem;
+}
 .gap-6{
   gap: 1.5rem;
 }
-.gap-5{
-  gap: 1.25rem;
+.gap-3{
+  gap: 0.75rem;
 }
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
@@ -668,6 +677,9 @@ h1,h2,h3,h4,h5,h6{
 .divide-gray-300 > :not([hidden]) ~ :not([hidden]){
   --tw-divide-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-divide-opacity));
+}
+.overflow-hidden{
+  overflow: hidden;
 }
 .rounded-full{
   border-radius: 9999px;
@@ -696,6 +708,10 @@ h1,h2,h3,h4,h5,h6{
   --tw-border-opacity: 1;
   border-color: rgb(253 61 87 / var(--tw-border-opacity));
 }
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
 .bg-gray-800{
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
@@ -707,6 +723,9 @@ h1,h2,h3,h4,h5,h6{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.bg-opacity-40{
+  --tw-bg-opacity: 0.4;
 }
 .bg-cover{
   background-size: cover;
@@ -721,9 +740,9 @@ h1,h2,h3,h4,h5,h6{
   -o-object-fit: contain;
      object-fit: contain;
 }
-.object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 .px-6{
   padding-left: 1.5rem;
@@ -733,25 +752,21 @@ h1,h2,h3,h4,h5,h6{
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 .py-36{
   padding-top: 9rem;
   padding-bottom: 9rem;
 }
-.py-16{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .py-6{
   padding-top: 1.5rem;
@@ -766,9 +781,20 @@ h1,h2,h3,h4,h5,h6{
 .text-center{
   text-align: center;
 }
+.font-roboto{
+  font-family: "Roboto", sans-serif;
+}
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+.text-9xl{
+  font-size: 8rem;
+  line-height: 1;
 }
 .text-lg{
   font-size: 1.125rem;
@@ -782,12 +808,19 @@ h1,h2,h3,h4,h5,h6{
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-6xl{
-  font-size: 3.75rem;
-  line-height: 1;
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .font-medium{
   font-weight: 500;
+}
+.uppercase{
+  text-transform: uppercase;
 }
 .capitalize{
   text-transform: capitalize;
@@ -803,6 +836,10 @@ h1,h2,h3,h4,h5,h6{
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
+.text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
 .text-gray-600{
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -811,17 +848,13 @@ h1,h2,h3,h4,h5,h6{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
 .text-gray-800{
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
-.text-gray-500{
+.text-white{
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .opacity-0{
   opacity: 0;
@@ -878,6 +911,14 @@ h1,h2,h3,h4,h5,h6{
 
 .group:hover .group-hover\:visible{
   visibility: visible;
+}
+
+.group:hover .group-hover\:bg-opacity-60{
+  --tw-bg-opacity: 0.6;
+}
+
+.group:hover .group-hover\:bg-opacity-50{
+  --tw-bg-opacity: 0.5;
 }
 
 .group:hover .group-hover\:opacity-100{
