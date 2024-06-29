@@ -24,10 +24,13 @@ module.exports = {
     variants: {
       extend: {
         display: ['group-hover'],
-        visibility: ['group-hover']
+        visibility: ['group-hover'],
+        borderColor: ['focus'],
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 
