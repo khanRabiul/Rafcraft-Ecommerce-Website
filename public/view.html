@@ -403,22 +403,364 @@
 
         <!-- quantity   -->
         <div class="mt-4">
-            <h3 class="text-sm text-gray-800 uppercase mb-1 font-medium">
-              Quantity
-            </h3>
-            <div class="flex border border-gray-300 divide-x divide-gray-300 w-max">
-                <div class="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none">-</div>
-                <div class="h-8 w-8 text-base flex items-center justify-center">4</div>
-                <div class="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none">+</div>
+          <h3 class="text-sm text-gray-800 uppercase mb-1 font-medium">
+            Quantity
+          </h3>
+          <div
+            class="flex border border-gray-300 divide-x divide-gray-300 w-max"
+          >
+            <div
+              class="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none"
+            >
+              -
             </div>
+            <div class="h-8 w-8 text-base flex items-center justify-center">
+              4
+            </div>
+            <div
+              class="h-8 w-8 text-xl flex items-center justify-center cursor-pointer select-none"
+            >
+              +
+            </div>
+          </div>
         </div>
         <!-- quantity  end -->
-        
+
+        <!-- cart button  -->
+        <div class="flex gap-3 border-b border-gray-200 pb-5 mt-6">
+          <a
+            href="#"
+            class="bg-primary border border-primary flex text-white px-8 py-2 font-medium rounded uppercase items-center gap-2 hover:bg-transparent hover:text-primary"
+          >
+            <i class="fas fa-shopping-bag"></i>Add to cart
+          </a>
+          <a
+            href="#"
+            class="border border-gray-300 text-gray-600 px-8 py-2 font-medium rounded uppercase flex items-center gap-2 hover:text-primary"
+          >
+            <i class="fas fa-heart"></i>wishlist
+          </a>
+        </div>
+        <!-- cart button end -->
+
+        <!-- socila icon  -->
+        <div class="flex gap-3 mt-4 mb-4">
+          <a
+            href="#"
+            class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="#"
+            class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="#"
+            class="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <!-- socila icon end -->
       </div>
     </div>
     <!-- product content end -->
 
     <!-- product view end -->
+
+    <!-- product view details   -->
+    <div class="container pb-16">
+      <h3
+        class="border-b border-gray-200 font-roboto text-gray-800 font-medium"
+      >
+        Product Details
+      </h3>
+
+      <div class="w-3/5 pt-6">
+        <div class="text-gray-600 space-y-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+            tempora rem quae incidunt! Repellendus, nesciunt impedit. Nam nobis
+            atque ipsum neque necessitatibus officia quos culpa ad magni,
+            aperiam ab quam.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+            tempora rem quae incidunt! Repellendus, nesciunt impedit. Nam nobis
+            atque ipsum neque necessitatibus officia quos culpa ad magni,
+            aperiam ab quam.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+            tempora rem quae incidunt! Repellendus, nesciunt impedit. Nam nobis
+            atque ipsum neque necessitatibus officia quos culpa ad magni,
+            aperiam ab quam.
+          </p>
+        </div>
+
+        <!-- table  -->
+        <table
+          class="table-auto border-collapse w-full text-left text-gray-600 text-sm mt-6"
+        >
+          <tr>
+            <th class="py-2 px-4 border border-gray-300 w-40 font-medium">Color</th>
+          <td class="py-2 px-4 border border-gray-300">Black, Brown, Red</td>
+          </tr>
+          <tr>
+            <th class="py-2 px-4 border border-gray-300 w-40 font-medium">Material</th>
+          <td class="py-2 px-4 border border-gray-300">Arificial Leather</td>
+          </tr>
+          <tr>
+            <th class="py-2 px-4 border border-gray-300 w-40 font-medium">Weight</th>
+          <td class="py-2 px-4 border border-gray-300">55Kg</td>
+          </tr>
+        </table>
+        <!-- table end -->
+      </div>
+    </div>
+    <!-- product view details  end -->
+
+       <!-- products section  -->
+       <div class="container pb-16">
+        <h2 class="text-2xl font-medium text-gray-800 uppercase mb-6">
+          Related Products
+        </h2>
+  
+        <!-- products  -->
+        <div class="grid grid-cols-4 gap-6">
+  
+          <!-- single products  -->
+          <div class="bg-white shadow-rounded overflow-hidden">
+            <!-- product's image  -->
+            <div class="relative group">
+              <img src="./Images/products/product9.jpg" alt="" class="w-full" />
+  
+              <div
+                class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition"
+              >
+                <a
+                  href="#"
+                  class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transintion"
+                >
+                  <i class="fas fa-search"></i>
+                </a>
+                <a
+                  href="#"
+                  class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transintion"
+                >
+                  <i class="fas fa-heart"></i>
+                </a>
+              </div>
+            </div>
+  
+            <!-- product's description  -->
+            <div class="pt-4 pb-3 px-4">
+              <a href="#">
+                <h4
+                  class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition"
+                >
+                  Guyer Chari
+                </h4>
+              </a>
+  
+              <div class="flex items-baseline mb-1 space-x-2 text-gray-800 hover:text-primary transition">
+                <p class="text-xl text-primary font-semibold">$45.00</p>
+                <p class="text-sm text-gray-400 line-through">$55.00</p>
+              </div>
+  
+              <div class="flex items-center">
+                <div class="flex gap-1 textf-sm text-yellow-400">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                </div>
+                <div class="text-sx text-gray-500 ml-3">(150)</div>
+              </div>
+  
+              
+            </div>
+            <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add to Cart</a>
+          </div>
+          <!-- single products end -->
+  
+          <!-- single products  -->
+          <div class="bg-white shadow-rounded overflow-hidden">
+            <!-- product's image  -->
+            <div class="relative group">
+              <img src="./Images/products/product1.jpg" alt="" class="w-full" />
+  
+              <div
+                class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition"
+              >
+                <a
+                  href="#"
+                  class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transintion"
+                >
+                  <i class="fas fa-search"></i>
+                </a>
+                <a
+                  href="#"
+                  class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transintion"
+                >
+                  <i class="fas fa-heart"></i>
+                </a>
+              </div>
+            </div>
+  
+            <!-- product's description  -->
+            <div class="pt-4 pb-3 px-4">
+              <a href="#">
+                <h4
+                  class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition"
+                >
+                  Guyer Chari
+                </h4>
+              </a>
+  
+              <div class="flex items-baseline mb-1 space-x-2 text-gray-800 hover:text-primary transition">
+                <p class="text-xl text-primary font-semibold">$45.00</p>
+                <p class="text-sm text-gray-400 line-through">$55.00</p>
+              </div>
+  
+              <div class="flex items-center">
+                <div class="flex gap-1 textf-sm text-yellow-400">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                </div>
+                <div class="text-sx text-gray-500 ml-3">(150)</div>
+              </div>
+  
+              
+            </div>
+            <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add to Cart</a>
+          </div>
+          <!-- single products end -->
+  
+          <!-- single products  -->
+          <div class="bg-white shadow-rounded overflow-hidden">
+            <!-- product's image  -->
+            <div class="relative group">
+              <img src="./Images/products/product8.jpg" alt="" class="w-full" />
+  
+              <div
+                class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition"
+              >
+                <a
+                  href="#"
+                  class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transintion"
+                >
+                  <i class="fas fa-search"></i>
+                </a>
+                <a
+                  href="#"
+                  class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transintion"
+                >
+                  <i class="fas fa-heart"></i>
+                </a>
+              </div>
+            </div>
+  
+            <!-- product's description  -->
+            <div class="pt-4 pb-3 px-4">
+              <a href="#">
+                <h4
+                  class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition"
+                >
+                  Guyer Chari
+                </h4>
+              </a>
+  
+              <div class="flex items-baseline mb-1 space-x-2 text-gray-800 hover:text-primary transition">
+                <p class="text-xl text-primary font-semibold">$45.00</p>
+                <p class="text-sm text-gray-400 line-through">$55.00</p>
+              </div>
+  
+              <div class="flex items-center">
+                <div class="flex gap-1 textf-sm text-yellow-400">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                </div>
+                <div class="text-sx text-gray-500 ml-3">(150)</div>
+              </div>
+  
+              
+            </div>
+            <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add to Cart</a>
+          </div>
+          <!-- single products end -->
+  
+          <!-- single products  -->
+          <div class="bg-white shadow-rounded overflow-hidden">
+            <!-- product's image  -->
+            <div class="relative group">
+              <img src="./Images/products/product12.jpg" alt="" class="w-full" />
+  
+              <div
+                class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition"
+              >
+                <a
+                  href="#"
+                  class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transintion"
+                >
+                  <i class="fas fa-search"></i>
+                </a>
+                <a
+                  href="#"
+                  class="text-white text-lg w-9 h-9 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transintion"
+                >
+                  <i class="fas fa-heart"></i>
+                </a>
+              </div>
+            </div>
+  
+            <!-- product's description  -->
+            <div class="pt-4 pb-3 px-4">
+              <a href="#">
+                <h4
+                  class="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition"
+                >
+                  Guyer Chari
+                </h4>
+              </a>
+  
+              <div class="flex items-baseline mb-1 space-x-2 text-gray-800 hover:text-primary transition">
+                <p class="text-xl text-primary font-semibold">$45.00</p>
+                <p class="text-sm text-gray-400 line-through">$55.00</p>
+              </div>
+  
+              <div class="flex items-center">
+                <div class="flex gap-1 textf-sm text-yellow-400">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                </div>
+                <div class="text-sx text-gray-500 ml-3">(150)</div>
+              </div>
+  
+              
+            </div>
+            <a href="#" class="block w-full py-1 text-center text-white bg-primary border border-primary rounded-b hover:bg-transparent hover:text-primary transition">Add to Cart</a>
+          </div>
+          <!-- single products end -->
+  
+          
+  
+        </div>
+      </div>
+      <!-- products section end -->
 
     <!-- footer  -->
     <footer class="bg-white pt-16 border-t border-gray-100">
